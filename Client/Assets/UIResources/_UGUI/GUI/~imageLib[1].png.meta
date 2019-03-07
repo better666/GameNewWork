@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 9e41b8ac6ee42e7498d5d5360e68d9a3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ~imageLib[1]_0
+    21300002: ~imageLib[1]_1
+    21300004: ~imageLib[1]_2
+    21300006: ~imageLib[1]_3
+    21300008: ~imageLib[1]_4
+    21300010: ~imageLib[1]_5
+    21300012: ~imageLib[1]_6
+    21300014: ~imageLib[1]_7
+    21300016: ~imageLib[1]_8
+    21300018: ~imageLib[1]_9
+    21300020: ~imageLib[1]_10
+    21300022: ~imageLib[1]_11
+    21300024: ~imageLib[1]_12
+    21300026: ~imageLib[1]_13
+    21300028: ~imageLib[1]_14
+    21300030: ~imageLib[1]_15
+    21300032: ~imageLib[1]_16
+    21300034: ~imageLib[1]_17
+    21300036: ~imageLib[1]_18
+    21300038: ~imageLib[1]_19
+    21300040: ~imageLib[1]_20
+    21300042: ~imageLib[1]_21
+    21300044: ~imageLib[1]_22
+    21300046: ~imageLib[1]_23
+    21300048: ~imageLib[1]_24
+    21300050: ~imageLib[1]_25
+    21300052: ~imageLib[1]_26
+    21300054: ~imageLib[1]_27
+    21300056: ~imageLib[1]_28
+    21300058: ~imageLib[1]_29
+    21300060: ~imageLib[1]_30
+    21300062: ~imageLib[1]_31
+    21300064: ~imageLib[1]_32
+    21300066: ~imageLib[1]_33
+    21300068: ~imageLib[1]_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: ~imageLib[1]_0
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 42
+        width: 287
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_1
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 430
+        width: 204
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_2
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 281
+        width: 70
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 248
+        width: 98
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_4
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 248
+        width: 69
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_5
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 265
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_6
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 240
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_7
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 102
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_8
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 163
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_9
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 178
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_10
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 117
+        width: 110
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 93
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_12
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 90
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_13
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 206
+        width: 81
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_14
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 321
+        width: 174
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 212
+        width: 75
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_16
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 18
+        width: 179
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_17
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2
+        width: 378
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 90
+        width: 65
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 87
+        width: 199
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_20
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_21
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 114
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 228
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 125
+        width: 194
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 91
+        width: 69
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 48
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 14
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 286
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 231
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 370
+        width: 124
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_30
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 378
+        width: 150
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_31
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 458
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_32
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 320
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 325
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ~imageLib[1]_34
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 351
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

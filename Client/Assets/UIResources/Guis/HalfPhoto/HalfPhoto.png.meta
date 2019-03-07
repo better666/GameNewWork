@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: c3fe63157c5daa845b2bbba4a9ba7b88
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HalfPhoto_0
+    21300002: HalfPhoto_1
+    21300004: HalfPhoto_2
+    21300006: HalfPhoto_3
+    21300008: HalfPhoto_4
+    21300010: HalfPhoto_5
+    21300012: HalfPhoto_6
+    21300014: HalfPhoto_7
+    21300016: HalfPhoto_8
+    21300018: HalfPhoto_9
+    21300020: HalfPhoto_10
+    21300022: HalfPhoto_11
+    21300024: HalfPhoto_12
+    21300026: HalfPhoto_13
+    21300028: HalfPhoto_14
+    21300030: HalfPhoto_15
+    21300032: HalfPhoto_16
+    21300034: HalfPhoto_17
+    21300036: HalfPhoto_18
+    21300038: HalfPhoto_19
+    21300040: HalfPhoto_20
+    21300042: HalfPhoto_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 100
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: HalfPhoto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1003
+        width: 180
+        height: 251
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 7, y: 5, z: 4, w: 3}
+    - name: HalfPhoto_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1256
+        width: 132
+        height: 182
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 6, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 180
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 13, w: 0}
+    - name: HalfPhoto_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 753
+        width: 178
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 14, w: 0}
+    - name: HalfPhoto_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 753
+        width: 180
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 17, w: 0}
+    - name: HalfPhoto_5
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 753
+        width: 178
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 14, w: 0}
+    - name: HalfPhoto_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 753
+        width: 180
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 11, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_7
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 502
+        width: 179
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 12, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_8
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 252
+        width: 180
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 23, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_9
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 0
+        width: 178
+        height: 251
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_10
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 181
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 11, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_11
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 181
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 18, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 181
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 15, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 21, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 179
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 33, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 252
+        width: 181
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 16, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_16
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 252
+        width: 181
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_17
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 251
+        width: 180
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_18
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 503
+        width: 180
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 17, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 502
+        width: 179
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 15, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 501
+        width: 181
+        height: 251
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 27, y: 0, z: 0, w: 0}
+    - name: HalfPhoto_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 180
+        height: 252
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 22, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

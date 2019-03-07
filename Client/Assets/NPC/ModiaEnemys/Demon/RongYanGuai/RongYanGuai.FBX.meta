@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: c13328c732920f2479b3bc6110c58472
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: RongYanGuai_03
+    100004: RongYanGuai_02
+    100006: RongYanGuai_01
+    100008: Bone03
+    100010: Bone02
+    100012: Bone01
+    100014: RongYanGuai_04
+    100016: Particle View 01
+    400000: //RootNode
+    400002: RongYanGuai_03
+    400004: RongYanGuai_02
+    400006: RongYanGuai_01
+    400008: Bone03
+    400010: Bone02
+    400012: Bone01
+    400014: RongYanGuai_04
+    400016: Particle View 01
+    4300000: RongYanGuai_04
+    4300002: RongYanGuai_01
+    4300004: RongYanGuai_02
+    4300006: RongYanGuai_03
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: RongYanGuai_03
+    13700002: RongYanGuai_02
+    13700004: RongYanGuai_01
+    13700006: RongYanGuai_04
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: RongYanGuai(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Particle View 01
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RongYanGuai_01
+      parentName: 
+      position: {x: 0, y: 0.8236666, z: 0.060301494}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.1201469, y: 1.1201469, z: 1.1201469}
+    - name: RongYanGuai_02
+      parentName: 
+      position: {x: 0, y: 0.0000080014315, z: 0.060301494}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.9627419, y: 0.9627419, z: 0.9627419}
+    - name: RongYanGuai_03
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.2441216, y: 1.2441216, z: 1.2441216}
+    - name: RongYanGuai_04
+      parentName: 
+      position: {x: 0.0077291867, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.80069184, y: 0.80069184, z: 0.80069184}
+    - name: Bone01
+      parentName: 
+      position: {x: 0, y: 0.88123816, z: 0.00000003852014}
+      rotation: {x: 0.000000012820075, y: -0.000000012820075, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone03
+      parentName: 
+      position: {x: -1.1135987, y: 0.097378835, z: 0.000000004256564}
+      rotation: {x: 0.0000005688471, y: -0.0000005578347, z: -0.7133915, w: 0.7007657}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone02
+      parentName: 
+      position: {x: 1.071954, y: 0.097378835, z: 0.000000004256564}
+      rotation: {x: -0.0000022759473, y: 0.0000023291857, z: -0.7120171, w: 0.70216215}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

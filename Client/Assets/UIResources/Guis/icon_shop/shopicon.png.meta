@@ -1,0 +1,1100 @@
+fileFormatVersion: 2
+guid: c070f1d3982ddc24f96b7653736fb9f0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shopicon_0
+    21300002: shopicon_1
+    21300004: shopicon_2
+    21300006: shopicon_3
+    21300008: shopicon_4
+    21300010: shopicon_5
+    21300012: shopicon_6
+    21300014: shopicon_7
+    21300016: shopicon_8
+    21300018: shopicon_9
+    21300020: shopicon_10
+    21300022: shopicon_11
+    21300024: shopicon_12
+    21300026: shopicon_13
+    21300028: shopicon_14
+    21300030: shopicon_15
+    21300032: shopicon_16
+    21300034: shopicon_17
+    21300036: shopicon_18
+    21300038: shopicon_19
+    21300040: shopicon_20
+    21300042: shopicon_21
+    21300044: shopicon_22
+    21300046: shopicon_23
+    21300048: shopicon_24
+    21300050: shopicon_25
+    21300052: shopicon_26
+    21300054: shopicon_27
+    21300056: shopicon_28
+    21300058: shopicon_29
+    21300060: shopicon_30
+    21300062: shopicon_31
+    21300064: shopicon_32
+    21300066: shopicon_33
+    21300068: shopicon_34
+    21300070: shopicon_35
+    21300072: shopicon_36
+    21300074: shopicon_37
+    21300076: shopicon_38
+    21300078: shopicon_39
+    21300080: shopicon_40
+    21300082: shopicon_41
+    21300084: shopicon_42
+    21300086: shopicon_43
+    21300088: shopicon_44
+    21300090: shopicon_45
+    21300092: shopicon_46
+    21300094: shopicon_47
+    21300096: shopicon_48
+    21300098: shopicon_49
+    21300100: shopicon_50
+    21300102: shopicon_51
+    21300104: shopicon_52
+    21300106: shopicon_53
+    21300108: shopicon_54
+    21300110: shopicon_55
+    21300112: shopicon_56
+    21300114: shopicon_57
+    21300116: shopicon_58
+    21300118: shopicon_59
+    21300120: shopicon_60
+    21300122: shopicon_61
+    21300124: shopicon_62
+    21300126: shopicon_63
+    21300128: shopicon_64
+    21300130: shopicon_65
+    21300132: shopicon_66
+    21300134: shopicon_67
+    21300136: shopicon_68
+    21300138: shopicon_69
+    21300140: shopicon_70
+    21300142: shopicon_71
+    21300144: shopicon_72
+    21300146: shopicon_73
+    21300148: shopicon_74
+    21300150: shopicon_75
+    21300152: shopicon_76
+    21300154: shopicon_77
+    21300156: shopicon_78
+    21300158: shopicon_79
+    21300160: shopicon_80
+    21300162: shopicon_81
+    21300164: shopicon_82
+    21300166: shopicon_83
+    21300168: shopicon_84
+    21300170: shopicon_85
+    21300172: shopicon_86
+    21300174: shopicon_87
+    21300176: shopicon_88
+    21300178: shopicon_89
+    21300180: shopicon_90
+    21300182: shopicon_91
+    21300184: shopicon_92
+    21300186: shopicon_93
+    21300188: shopicon_94
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 5
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 4
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 33
+    compressionQuality: 100
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: 12
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: shopicon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 8, y: 0, z: 0, w: 0}
+    - name: shopicon_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 0, w: 0}
+    - name: shopicon_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 769
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 9, y: 0, z: 0, w: 0}
+    - name: shopicon_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 0, z: 0, w: 0}
+    - name: shopicon_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 593
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 0, z: 0, w: 0}
+    - name: shopicon_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 11, y: 0, z: 0, w: 0}
+    - name: shopicon_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 0, z: 0, w: 0}
+    - name: shopicon_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 0, z: 0, w: 0}
+    - name: shopicon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 8, y: 0, z: 0, w: 0}
+    - name: shopicon_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 0, z: 0, w: 0}
+    - name: shopicon_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 17, y: 0, z: 0, w: 0}
+    - name: shopicon_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 64
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 16, y: 0, z: 0, w: 0}
+    - name: shopicon_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 152
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 15, y: 0, z: 0, w: 0}
+    - name: shopicon_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 152
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_14
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 152
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 15, y: 0, z: 0, w: 0}
+    - name: shopicon_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 64
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 19, y: 0, z: 0, w: 0}
+    - name: shopicon_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 15, y: 0, z: 0, w: 0}
+    - name: shopicon_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 64
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 0, z: 0, w: 0}
+    - name: shopicon_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 152
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 0, z: 0, w: 0}
+    - name: shopicon_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 152
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_21
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_23
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 0, w: 0}
+    - name: shopicon_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 16, y: 0, z: 0, w: 0}
+    - name: shopicon_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 328
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_29
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 0, z: 0, w: 0}
+    - name: shopicon_30
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 0, z: 0, w: 0}
+    - name: shopicon_31
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 416
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 11, y: 0, z: 0, w: 0}
+    - name: shopicon_32
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 416
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 416
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_35
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 416
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 0, w: 0}
+    - name: shopicon_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 503
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 24, y: 0, z: 0, w: 0}
+    - name: shopicon_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 592
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 17, y: 0, z: 0, w: 0}
+    - name: shopicon_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 680
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 33, y: 0, z: 0, w: 0}
+    - name: shopicon_39
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 768
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 24, y: 0, z: 0, w: 0}
+    - name: shopicon_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 16, y: 0, z: 0, w: 0}
+    - name: shopicon_41
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_42
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_43
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 768
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 768
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 680
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_46
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 680
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_47
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 593
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 592
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_49
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_50
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_51
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_52
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 0, w: 0}
+    - name: shopicon_53
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 0, z: 0, w: 0}
+    - name: shopicon_54
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 12, y: 0, z: 0, w: 0}
+    - name: shopicon_55
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 504
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 7, y: 0, z: 0, w: 0}
+    - name: shopicon_56
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 0, z: 0, w: 0}
+    - name: shopicon_57
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_60
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_61
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_62
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_63
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_64
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_65
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_66
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_67
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_68
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 944
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_69
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_70
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_71
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 856
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_72
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 857
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_73
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 767
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_74
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 767
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_75
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 767
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_76
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 767
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_77
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 680
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_78
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 594
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_79
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 594
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 0, z: 0, w: 0}
+    - name: shopicon_80
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 682
+        width: 82
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_81
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 683
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_82
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 681
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_83
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 592
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_84
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 593
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_85
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 593
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 682
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_87
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 593
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_88
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 593
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_89
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 682
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_90
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 681
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_91
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 857
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_92
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 761
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_93
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 764
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shopicon_94
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 764
+        width: 86
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

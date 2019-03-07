@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: b09126c7002def045b54067d49e4b0a6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UIatlas9_0
+    21300002: UIatlas9_1
+    21300004: UIatlas9_2
+    21300006: UIatlas9_3
+    21300008: UIatlas9_4
+    21300010: UIatlas9_5
+    21300012: UIatlas9_6
+    21300014: UIatlas9_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 5
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 4
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 100
+  spriteSheet:
+    sprites:
+    - name: UIatlas9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 220
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UIatlas9_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 101
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UIatlas9_2
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 18
+        width: 101
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 7, y: 5, z: 10, w: 3}
+    - name: UIatlas9_3
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 41
+        width: 111
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: UIatlas9_4
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 18
+        width: 93
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: UIatlas9_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 41
+        width: 111
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: UIatlas9_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 267
+        width: 327
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 6, y: 5, z: 6, w: 5}
+    - name: UIatlas9_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 593
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+  spritePackingTag: 
+  userData: 
