@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1B9CC6D-E770-42DA-8D85-B587363CE09A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>Server</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GameServer.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>76E4A327D5F03D4CFF21918346371622494C6D72</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Server_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Demo.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameDesigner\Actions\ActionBlueprint\ActionBlueprint.cs" />
+    <Compile Include="GameDesigner\Actions\Camera\ActivateARPGCamera.cs" />
+    <Compile Include="GameDesigner\Actions\Camera\ARPGcamera.cs" />
+    <Compile Include="GameDesigner\Actions\Camera\MobaCamera.cs" />
+    <Compile Include="GameDesigner\Actions\Component\ActivateWithDelay.cs" />
+    <Compile Include="GameDesigner\Actions\Component\FindComponent.cs" />
+    <Compile Include="GameDesigner\Actions\Conditions\EnemyAttackCondition.cs" />
+    <Compile Include="GameDesigner\Actions\Conditions\EnemyMoveCondition.cs" />
+    <Compile Include="GameDesigner\Actions\Conditions\InputEvent.cs" />
+    <Compile Include="GameDesigner\Actions\Conditions\InputEvents.cs" />
+    <Compile Include="GameDesigner\Actions\Effect\LoadEffect.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\UI\CrossHairUI.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\UI\Player\FireToReload.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\UI\Player\FPS_Fire.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\UI\Player\FPS_FireInputEvent.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\UI\Player\FPS_InputMove.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\UI\Player\FPS_InputReload.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\UI\Player\FPS_Reload.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\UI\Player\InputControl.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\Weapon\HitEffect.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\Weapon\Weapon.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\Weapon\WeaponsManager.cs" />
+    <Compile Include="GameDesigner\Actions\FPS\Weapon\WeaponType.cs" />
+    <Compile Include="GameDesigner\Actions\Garen\SpellQCondition.cs" />
+    <Compile Include="GameDesigner\Actions\LVLayers\LvLayers.cs" />
+    <Compile Include="GameDesigner\Actions\MiniMap\MiniMap.cs" />
+    <Compile Include="GameDesigner\Actions\Move\MoveController.cs" />
+    <Compile Include="GameDesigner\Actions\Player\AttackProperty.cs" />
+    <Compile Include="GameDesigner\Actions\Player\Creeps\CreepsColliderCheck.cs" />
+    <Compile Include="GameDesigner\Actions\Player\Creeps\CreepsMove.cs" />
+    <Compile Include="GameDesigner\Actions\Player\DefenseTower\CheckRangeCollider.cs" />
+    <Compile Include="GameDesigner\Actions\Player\DefenseTower\DefenseTowerManager.cs" />
+    <Compile Include="GameDesigner\Actions\Player\Enemy\Enemy.cs" />
+    <Compile Include="GameDesigner\Actions\Player\PlayerSystem.cs" />
+    <Compile Include="GameDesigner\Actions\Player\Player\OnClickHit.cs" />
+    <Compile Include="GameDesigner\Actions\Player\Player\Player.cs" />
+    <Compile Include="GameDesigner\Actions\Player\Player\PlayerMove.cs" />
+    <Compile Include="GameDesigner\Actions\Player\PropertyData.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\AddDesMesh.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\EnemyGuanLi.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\FondRenreadAddMesh.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\LoadCreeps.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\LoadPlayPos.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\SaveLoading.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\SceneCollLoad.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\SceneInsEnemy.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\SceneLoad.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\SceneText.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\SetSceneName.cs" />
+    <Compile Include="GameDesigner\Actions\Scene\XSceneInsEnemy.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\ColliderBehaviour.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\ColliderProperty.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Collider\SkillCollider.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Collider\SkillRangeCollider.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Conditions\HitEffectInTargetTime.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Conditions\HitMoveInTarget.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Conditions\HitTarget.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Conditions\HitTargetCondition.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Conditions\MoveInput.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Conditions\SaveHitTarget.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Control\CannotMove100.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\Control\FlyUp.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\ActionMethot.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\Attack.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\BulletCollision.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\ChangeSoundClip.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\HitMark.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\LoadSkillEffect.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\MovePosition.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\OutHitTarget.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\SkillAction.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillAction\SpwanLookAtTarget.cs" />
+    <Compile Include="GameDesigner\Actions\Skill\SkillEffectBuffManager.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\EnemyAgentMove.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\EnemyMove.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\EnemyXunLuo.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\EnterEvent.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\ForDeath.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\IsGround.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\JumpDown.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\PlayerJump.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\PlayerSquat.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\UIAttack.cs" />
+    <Compile Include="GameDesigner\Actions\StateBehaviours\ZombieDeath.cs" />
+    <Compile Include="GameDesigner\Actions\StateBlueprint\StateBlueprint.cs" />
+    <Compile Include="GameDesigner\Actions\TransitionBlueprint\TransitionBlueprint.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\AudioVolume.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\ChuShouMenu.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\DebugJinBi.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\Drag.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\GameData.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\GameQuit.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\GoodsData.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\GoodsInfoMenu.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\GoodsTools\UISetBoxPosition.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\GouMaiMenu.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\Keyboard.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\Loading\SetLoadPlayer.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\MainUI.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\ShangDianBox\ShangDianBoxData.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\ShangDianBox\ShangDianLoadObject.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\ShuXingBoxData\ShuXingBoxData.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\ShuXingBoxData\ShuXingBoxList.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\ShuXingBoxData\ShuXingLogData.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\ShuXingDataLog.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\SkillLock.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UICameraScaler.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UIDepth.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UIEffectSize.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UIEffectTools\UISetEffectSize.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UIEventManager.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UILoadScene.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UILoging.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UIOptimize.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\UISliderHPMP.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\WuPinBoxData\WuPinBoxData.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\WuPinBoxData\WuPinBoxList.cs" />
+    <Compile Include="GameDesigner\Actions\UGUI\WuPinBuff.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UICanvasManager\UITopManager.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UIOtherProperties.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UIPropertyDataInspector.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UISkillButton.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UISkillCooling\UISkillCooling.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UISkillCooling\UISkillCoolingBuff.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITochMove\DragSightDistance.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITochMove\TouchCamera.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITochMove\UITouchMove.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITopHP\HealthBar.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITopText\UITopInstantiate.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITopText\UITopLookAtCamera.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITopText\UITopPlayerGUI.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITopText\UITopPosition.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITopText\UITopShow.cs" />
+    <Compile Include="GameDesigner\Actions\UI\UITopText\UITopTargetPosition.cs" />
+    <Compile Include="GameDesigner\Actions\XinZhao\XinZhaoSpellQ.cs" />
+    <Compile Include="GameDesigner\Blueprint\Blueprint.cs" />
+    <Compile Include="GameDesigner\Blueprint\BlueprintEditorManager.cs" />
+    <Compile Include="GameDesigner\Blueprint\BlueprintManager.cs" />
+    <Compile Include="GameDesigner\Blueprint\BlueprintNode.cs" />
+    <Compile Include="GameDesigner\Blueprint\Constructor.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\ArrayUtility.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\Branch.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\Enum\OperatorEnum.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\ForeachLoop.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\ForLoop.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\Array.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\Byte.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\Double.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\Float.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\Int16.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\Int32.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\Int64.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\Object.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\SByte.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\String.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\UInt16.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\UInt32.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\MathOperators\UInt64.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\NullUtility.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\Operator.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\Try.cs" />
+    <Compile Include="GameDesigner\Blueprint\Control\WhileLoop.cs" />
+    <Compile Include="GameDesigner\Blueprint\ConvertUtility.cs" />
+    <Compile Include="GameDesigner\Blueprint\CreateUtility.cs" />
+    <Compile Include="GameDesigner\Blueprint\Field.cs" />
+    <Compile Include="GameDesigner\Blueprint\FunBlockNode.cs" />
+    <Compile Include="GameDesigner\Blueprint\Method.cs" />
+    <Compile Include="GameDesigner\Blueprint\NodeRun.cs" />
+    <Compile Include="GameDesigner\Blueprint\ObjectModel.cs" />
+    <Compile Include="GameDesigner\Blueprint\Parameter.cs" />
+    <Compile Include="GameDesigner\Blueprint\Property.cs" />
+    <Compile Include="GameDesigner\Blueprint\SystemType.cs" />
+    <Compile Include="GameDesigner\Blueprint\TypeInfo.cs" />
+    <Compile Include="GameDesigner\Blueprint\ValueType.cs" />
+    <Compile Include="GameDesigner\Net\Client\ClientMgr.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetBehaviour.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetChat\ChatMgr.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetChat\ChatPanel.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetChat\ChatReminderPanel.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetChat\NetFindPlayer.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetClient.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetEnemy\NetEnemy.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetEnemy\NetEnemyState.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetLoadScene.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetLoginMessage.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetPlayer.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetScenePlayerStartPoint.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetSendMessage.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetSkill\NetInputEvent.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetSkill\NetSkillAction.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetSkill\NetSkillCollider.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetSkill\NetworkInput.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetSkill\NetworkMove.cs" />
+    <Compile Include="GameDesigner\Net\Client\NetTransform.cs" />
+    <Compile Include="GameDesigner\Net\Server\NetBehaviour.cs" />
+    <Compile Include="GameDesigner\Net\Server\NetEnemy.cs" />
+    <Compile Include="GameDesigner\Net\Server\NetPlayer.cs" />
+    <Compile Include="GameDesigner\Net\Server\NetServer.cs" />
+    <Compile Include="GameDesigner\Net\Server\ServerDataBase.cs" />
+    <Compile Include="GameDesigner\Net\Share\NetBuffer.cs" />
+    <Compile Include="GameDesigner\Net\Share\NetCmd.cs" />
+    <Compile Include="GameDesigner\Net\Share\NetConvert.cs" />
+    <Compile Include="GameDesigner\Net\Share\NetDelegate.cs" />
+    <Compile Include="GameDesigner\Net\Share\NetMsg.cs" />
+    <Compile Include="GameDesigner\Net\Share\NetScene.cs" />
+    <Compile Include="GameDesigner\Net\Share\NetState.cs" />
+    <Compile Include="GameDesigner\Net\Share\ReceiveBuffer.cs" />
+    <Compile Include="GameDesigner\Net\Share\RPCFun.cs" />
+    <Compile Include="GameDesigner\Net\Share\SendBuffer.cs" />
+    <Compile Include="GameDesigner\Other\BlueprintSetting.cs" />
+    <Compile Include="GameDesigner\Other\StateMachineSetting.cs" />
+    <Compile Include="GameDesigner\Script\DestroyTime.cs" />
+    <Compile Include="GameDesigner\Script\Disable.cs" />
+    <Compile Include="GameDesigner\Script\EnemyInformationUI.cs" />
+    <Compile Include="GameDesigner\Script\Enemytest.cs" />
+    <Compile Include="GameDesigner\Script\FPSPlayerController.cs" />
+    <Compile Include="GameDesigner\Script\FPS_BulletCollision.cs" />
+    <Compile Include="GameDesigner\Script\FPS_FireToIdleEvent.cs" />
+    <Compile Include="GameDesigner\Script\GrenadeExplosion.cs" />
+    <Compile Include="GameDesigner\Script\HealthPointUI.cs" />
+    <Compile Include="GameDesigner\Script\HitIconManager.cs" />
+    <Compile Include="GameDesigner\Script\InterfaceHints.cs" />
+    <Compile Include="GameDesigner\Script\KillIconManager.cs" />
+    <Compile Include="GameDesigner\Script\LimbCollisionManager.cs" />
+    <Compile Include="GameDesigner\Script\MaterialType.cs" />
+    <Compile Include="GameDesigner\Script\MouseLock.cs" />
+    <Compile Include="GameDesigner\Script\MouseLook.cs" />
+    <Compile Include="GameDesigner\Script\RadarPositionUI.cs" />
+    <Compile Include="GameDesigner\Script\UISensitivityController.cs" />
+    <Compile Include="GameDesigner\Script\UI\MenuHotKey.cs" />
+    <Compile Include="GameDesigner\Script\UI\NumberBullets.cs" />
+    <Compile Include="GameDesigner\Script\UI\ProgressbarText.cs" />
+    <Compile Include="GameDesigner\Script\UI\WeaponUI.cs" />
+    <Compile Include="GameDesigner\Script\ZombieInstantiate.cs" />
+    <Compile Include="GameDesigner\StateMachine\ActionBehaviour.cs" />
+    <Compile Include="GameDesigner\StateMachine\AudioManager.cs" />
+    <Compile Include="GameDesigner\StateMachine\IBehaviour.cs" />
+    <Compile Include="GameDesigner\StateMachine\IState.cs" />
+    <Compile Include="GameDesigner\StateMachine\State.cs" />
+    <Compile Include="GameDesigner\StateMachine\StateAction.cs" />
+    <Compile Include="GameDesigner\StateMachine\StateBehaviour.cs" />
+    <Compile Include="GameDesigner\StateMachine\StateMachine.cs" />
+    <Compile Include="GameDesigner\StateMachine\StateManager.cs" />
+    <Compile Include="GameDesigner\StateMachine\StateSystem.cs" />
+    <Compile Include="GameDesigner\StateMachine\Timer.cs" />
+    <Compile Include="GameDesigner\StateMachine\Transition.cs" />
+    <Compile Include="GameDesigner\StateMachine\TransitionBehaviour.cs" />
+    <Compile Include="GameDesigner\StateMachine\TransitionModel.cs" />
+    <Compile Include="ServerMgr.cs" />
+    <Compile Include="Program.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
